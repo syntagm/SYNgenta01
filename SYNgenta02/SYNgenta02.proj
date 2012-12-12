@@ -28,6 +28,9 @@
     <Folder Include="App_Resources\Android\drawable-ldpi">
       <Platform>Android</Platform>
     </Folder>
+    <Folder Include="images" />
+    <Folder Include="images\misc" />
+    <Folder Include="images\orbit" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\iOS\icon.png" />
@@ -51,6 +54,43 @@
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\Active.jpg" />
+    <Content Include="images\amilogo.jpg" />
+    <Content Include="images\amistar.jpg" />
+    <Content Include="images\ampligo.jpg" />
+    <Content Include="images\apple.jpg" />
+    <Content Include="images\background.jpg" />
+    <Content Include="images\callisto.jpg" />
+    <Content Include="images\cliccard1.jpg" />
+    <Content Include="images\cliccard2.jpg" />
+    <Content Include="images\cliccard3.jpg" />
+    <Content Include="images\cliccard4.jpg" />
+    <Content Include="images\cliccard5.jpg" />
+    <Content Include="images\Descrip.jpg" />
+    <Content Include="images\icon2.jpg" />
+    <Content Include="images\icon2.png" />
+    <Content Include="images\misc\.DS_Store" />
+    <Content Include="images\misc\custom-form-sprites.png" />
+    <Content Include="images\misc\dropdown-button-nub.png" />
+    <Content Include="images\misc\input-bg-outset.png" />
+    <Content Include="images\misc\input-bg.png" />
+    <Content Include="images\nextlogo.jpg" />
+    <Content Include="images\orbit\bullets.jpg" />
+    <Content Include="images\orbit\left-arrow.png" />
+    <Content Include="images\orbit\loading.gif" />
+    <Content Include="images\orbit\mask-black.png" />
+    <Content Include="images\orbit\pause-black.png" />
+    <Content Include="images\orbit\right-arrow.png" />
+    <Content Include="images\orbit\rotator-black.png" />
+    <Content Include="images\orbit\timer-black.png" />
+    <Content Include="images\precaut.jpg" />
+    <Content Include="images\resist.jpg" />
+    <Content Include="images\synlogo.jpg" />
+    <Content Include="images\Thumbnail.jpg" />
+    <Content Include="images\twitlogo.jpg" />
+    <Content Include="images\twitpanel.jpg" />
+    <Content Include="images\Warning.jpg" />
+    <Content Include="images\welcome.jpg" />
     <Content Include="index.html" />
     <Content Include="jquery-mobile\images\ajax-loader.png" />
     <Content Include="jquery-mobile\images\ajax-loader.gif" />
@@ -62,6 +102,13 @@
     <Content Include="jquery-mobile\jquery.mobile-1.1.1.min.css" />
     <Content Include="jquery-mobile\jquery.mobile-1.1.1.min.js" />
     <Content Include="js\hello-world.js" />
+    <Content Include="js\modernizr.foundation.js" />
+    <Content Include="styles\app.css" />
+    <Content Include="styles\buttons.css" />
+    <Content Include="styles\forms.css" />
+    <Content Include="styles\globals.css" />
+    <Content Include="styles\grid.css" />
+    <Content Include="styles\ie.css" />
     <Content Include="styles\main.css" />
     <Content Include="cordova.ios.js">
       <Platform>iOS</Platform>
@@ -71,6 +118,15 @@
       <Platform>Android</Platform>
       <TargetName>cordova.js</TargetName>
     </Content>
+    <Content Include="styles\mobile.css" />
+    <Content Include="styles\navbar.css" />
+    <Content Include="styles\normalize.css" />
+    <Content Include="styles\offcanvas.css" />
+    <Content Include="styles\orbit.css" />
+    <Content Include="styles\reveal.css" />
+    <Content Include="styles\tabs.css" />
+    <Content Include="styles\typography.css" />
+    <Content Include="styles\ui.css" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />
 </Project>
